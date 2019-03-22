@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Work Cloud</title>
+    <link rel="stylesheet" th:href="@{/styles.css}">
+</head>
+<body>
+    <h1>I am working</h1>
+    <img th:src="@{/images/TacoClound.png}">
+
+    <form metod="POST" th:object="${design}">
+        <div class="grid">
+            <div class="ingredient-grid" id="wraps">
+                <h3>Designate your wrap:</h3>
+                <div></div>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>
